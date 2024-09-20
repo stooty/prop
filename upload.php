@@ -1,4 +1,3 @@
-// API-Needed: Replace this with actual database connection
 <?php
 $db = new PDO('sqlite:database.sqlite');
 $db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
